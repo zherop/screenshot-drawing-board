@@ -13,6 +13,7 @@
 <script>
 import html2canvas from 'html2canvas'
 import SimpleDrawingBoard from 'simple-drawing-board'
+import hotkeys from 'hotkeys-js'
 
 export default {
   props: {
@@ -54,6 +55,7 @@ export default {
 
   created() {
     this.init()
+    this.setHotkeys();
   },
 
   methods: {
@@ -88,6 +90,16 @@ export default {
         .catch(e => {
           console.error(e)
         })
+    },
+
+    setHotkeys(){
+      let self = this;
+      hotkeys('ctrl+z',function(event, handler){
+        self.undo();
+      });
+      hotkeys('ctrl+y',function(event, handler){
+        self.redo();
+      });
     },
 
     clear() {
