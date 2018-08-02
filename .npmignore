@@ -6,3 +6,6 @@ build/
 node_modules/
 src/
 test/
+.vscode/
+.git/
+.gitignore
