@@ -1,0 +1,8 @@
+.*
+*.md
+*.yml
+webpack.config.js
+build/
+node_modules/
+src/
+test/
