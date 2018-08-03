@@ -90,3 +90,7 @@ export default {
 - ctrl + y
 
   回到下一步画笔步骤。
+
+### Demo
+
+  [GitHub](https://github.com/zherop/vue-example#screenshot-drawing-board)

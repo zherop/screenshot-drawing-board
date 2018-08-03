@@ -1,6 +1,6 @@
 {
   "name": "screenshot-drawing-board",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "description": "A vue component that contains screenshot and drawingboard.",
   "main": "dist/screenshot-drawing-board.min.js",
   "scripts": {
