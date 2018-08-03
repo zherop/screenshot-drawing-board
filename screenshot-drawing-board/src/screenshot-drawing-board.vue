@@ -54,8 +54,10 @@ export default {
   },
 
   created() {
-    this.init()
-    this.setHotkeys();
+    this.$nextTick(()=>{
+      this.init()
+      this.setHotkeys();
+    });
   },
 
   methods: {
