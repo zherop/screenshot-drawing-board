@@ -80,3 +80,13 @@ export default {
 | save     | 当点击[保存]按钮时会触发该事件             | -            |
 | init     | 初始化画板                                 | -            |
 | clear    | 销毁画板                                   | -            |
+
+### Hotkeys
+
+- ctrl + z
+
+  撤销，回到上一步画笔步骤。
+
+- ctrl + y
+
+  回到下一步画笔步骤。
